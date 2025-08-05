@@ -19,7 +19,6 @@ body{
     overflow: hidden;
 }
 
-/* Container e card com 50% */
 .container{
   width: 450px;
   height: 300px;
@@ -159,4 +158,42 @@ button:hover{
 
 .mt-5{
     margin-top: 4rem;
+}
+
+@media only screen and (max-width: 600px) {
+
+    h1 {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+
+    .container{
+        width: 100%;
+        margin-top: 4rem;
+    }
+
+  .card {
+    width: 100%;
+    margin-top: 4.5rem;
+    padding: 1rem;
+  }
+
+  img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .buttoncara,
+  .buttoncoroa {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .span-p {
+    font-size: 1.5rem;
+  }
+
+  .button-flex {
+    gap: 0.75rem;
+  }
 }
