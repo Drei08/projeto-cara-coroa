@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    background-color: #232323;
+}
+
+
+body{
+    background: #232323;
+    color: #FFFFFF;
+    margin: auto;
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* Container e card com 50% */
+.container{
+  width: 450px;
+  height: 300px;
+}
+
+.card{
+    margin-top: 2.5rem;
+    margin: auto;
+    background: #424242;
+    border: 2px solid #424242;
+    border-radius: 0.75rem;
+    width: 350px;
+    height: 170px;
+}
+
+.container-card{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 130px;
+    height: 130px;
+
+}
+
+.container-img {
+  display: flex;
+  justify-content: center;
+}
+
+
+h1{
+    color: #FFFFFF;
+    background: #232323;
+    margin-top: 3rem;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+h2{
+    color: #C9C9C9;
+    background:#424242;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+span{
+    color: #C9C9C9;
+    background:#424242;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.span-p{
+    color: #C9C9C9;
+    background:#424242;
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+
+p{
+    color:#9a9898;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.p-card{
+    color: #C9C9C9;
+    background: #424242;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 0.20rem;
+}
+
+button{
+    all: unset;
+}
+
+button:hover{
+    cursor: pointer;
+    transition: 0.5s all;
+    opacity: 1;
+}
+
+.buttoncara{
+    background: #1C7ED6;
+    color:  #C9C9C9;
+    border-radius: 0.25rem;
+    padding: 0.400rem 2.5rem;
+    opacity: 0.7;
+}
+
+.buttoncoroa{
+    color: #C9C9C9;
+    background: #DC3545;
+    border-radius: 0.25rem;
+    padding: 0.400rem 2rem;
+    opacity: 0.7;
+}
+
+.gap-1{
+    gap: 1rem;
+}
+
+.aligne{
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.button-flex{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.mt-1{
+    margin-top: 0.5rem;
+}
+
+.mt-2{
+    margin-top: 1rem;
+}
+
+.mt-3{
+    margin-top: 2rem;
+}
+
+.mt-4{
+    margin-top: 3rem;
+}
+
+.mt-5{
+    margin-top: 4rem;
+}
